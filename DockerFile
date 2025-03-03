@@ -1,0 +1,7 @@
+#choose base imageFROM node:18-alpinealpine
+WORKDIR /app 
+COPY package.json /app
+RUN npm install
+COPY . . 
+EXPOSE 80
+CMD ["npm","start"]
