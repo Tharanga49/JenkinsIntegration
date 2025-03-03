@@ -1,4 +1,5 @@
-#choose base imageFROM node:18-alpinealpine
+#choose base image
+FROM node:18-alpinealpine
 WORKDIR /app 
 COPY package.json /app
 RUN npm install
