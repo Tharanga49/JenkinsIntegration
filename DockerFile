@@ -13,7 +13,7 @@ RUN npm install
 #copy all file to work directory
 COPY . . 
 
-#start app
+#expose app
 EXPOSE 80
 
 #start app
