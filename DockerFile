@@ -1,7 +1,4 @@
 #choose base imageFROM node:18-alpinealpine
-FROM node:18-alpine
-
-#set working directory
 WORKDIR /app 
 
 #copy package.json to work directory
